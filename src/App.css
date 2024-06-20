@@ -64,4 +64,34 @@ ul
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 25px;
+}
+
+.product
+{
+border: 1px solid gray;
+width: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.product>img
+{
+  height: 250px;
+  width: 250px;
+}
+.btn
+{
+  height: 40px;
+  width: 120px;
+  background-color: rgb(148, 148, 236);
+  border: 2px solid white;
+  color: white;
+}
+.btn:hover
+{
+  background-color: white;
+  border: 2px solid rgb(148, 148, 236);
+  color: rgb(148, 148, 236);
 }
