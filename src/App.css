@@ -1,7 +1,7 @@
 .menu
 {
     height: 75px;
-    background-color: #405b6c;
+    background-color: #e91e63;
     color: #423838;
     display: flex;
     list-style: none;
@@ -93,5 +93,55 @@ justify-content: center;
 {
   background-color: white;
   border: 2px solid rgb(148, 148, 236);
-  color: rgb(148, 148, 236);
+  color: rgb(0, 0, 2);
+}
+.Teamcontainer
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+.teammember
+{
+  width:250px;
+  border:1px solid grey;
+  text-align: center;
+}
+.teammember>img
+{
+  height:200px;
+}
+.banner
+{
+  background-image: url('./bg2.PNG');
+  height:400px;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner>h1
+{
+  font-size: 40px;
+    font-family: auto;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.s
+{
+  color:yellow;
+}
+.des
+{
+  background-color: #ffff0024;
+  height:300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }

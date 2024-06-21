@@ -8,8 +8,12 @@ export default function Maincontainer()
     return(
         <>
         <div className="allproducts">
-        <Product pname="Andriod Mobile" pcompany="Redmi"
-        pprice="25000" pimg={redmi}></Product>
+        <Product pname="Andriod Mobile"
+         pcompany="Redmi"
+        pprice="25000" 
+        pimg={redmi}>
+            
+        </Product>
         <Product pimg={ac} pname="AC" pcompany="Hitachi"
         pprice="42500"> </Product>
         <Product pimg={refri} pname="Refrigirator"
