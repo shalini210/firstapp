@@ -18,14 +18,16 @@ export default function Contactus()
         <div className="contactform">
 
         <p>
-           <label> Name :</label> <input ref={name} type="text"></input>
+           <label> Name :</label>
+            <input ref={name} type="text"></input>
         </p>
         <p>
-            <label>Contact no  :</label> <input ref={contact} type="text"></input>
+            <label>Contact no  :
+                </label> <input ref={contact} type="text"></input>
         </p>
        <p>
         <label>message :</label>
-        <textarea></textarea>
+        <textarea ref={message}></textarea>
        </p>
         <p>
 <input type="button" value="contactus" onClick={()=>msg()} />
