@@ -145,3 +145,55 @@ justify-content: center;
   align-items: center;
 
 }
+
+.Contact
+{width:100%;
+display: flex;}
+.contactform
+{
+  width:50%;
+  height:450px;
+  display: flex;
+  flex-direction: column;
+  
+  background-color: #9b0032;
+}
+input[type="text"]
+{
+  height:50px;
+  width:50%;
+}
+input[type="button"]
+{
+  height:50px;
+  width:150px;
+  margin-top:250px;
+}
+p
+{
+  height:50px;
+  
+}
+textarea
+{
+  height:200px;
+  width:50%;
+  margin-top:150px;
+}
+.map
+{
+  width: 50%;
+  height: 450px;;
+}
+h1
+{
+  color:#9b0032;
+  text-align: center;
+}
+p
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

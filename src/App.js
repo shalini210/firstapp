@@ -8,6 +8,7 @@ import Maincontainer from './Maincontainer';
 import Teamcontainer from './Teamcontainer';
 import Banner from './Banner';
 import Des from './Des';
+import Contactus from './Contactus';
 function App() {
   return (
    <>
@@ -20,6 +21,9 @@ function App() {
     <Maincontainer></Maincontainer> */}
     <Teamcontainer></Teamcontainer>
    </div>
+
+    <h1>Contact us </h1>
+<Contactus></Contactus>
      <Copyright></Copyright>
    </>
   );
